@@ -1,0 +1,9 @@
+#header {
+    position: relative;
+    padding-top: 50%;
+    background-image: url('https://i.imgur.com/1202beD.jpg') top center /cover no-repeat;    
+}
+
+.grid .intro {
+    position: absolute;
+}
