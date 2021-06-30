@@ -1,9 +1,135 @@
-#header {
+/* Notify about covid 19 */
+.covid-noti {
     position: relative;
-    padding-top: 50%;
-    background-image: url('https://i.imgur.com/1202beD.jpg') top center /cover no-repeat;    
+    display: flex;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #222;
 }
 
-.grid .intro {
+.covid-noti-text a {
+    display: flex;
+    text-align: center;
+    font-size: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #a3a3a3;    
+}
+
+.covid-noti-text a:hover {
+    opacity: 0.8;
+}
+
+/* Header */
+
+#header {
+    position: relative;
+    padding-top: 42%;
+    background: url('https://i.imgur.com/1202beD.jpg') top center /cover no-repeat;    
+    margin: 0;
+}
+
+.navbar-header {
     position: absolute;
+    top: 0;
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-header__group {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.navbar-header--logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-item {
+    position: relative;
+    padding: 0 20px;
+}
+
+.navbar-item__link {
+    font-size: 1.6em;
+    line-height: 1.8rem;
+    color: var(--white-color);
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0;
+}
+
+.navbar-item--active:hover {
+    cursor: default;
+}
+
+.navbar-item--active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 50%;
+    width: 15px;
+    transform: translateX(-50%);
+    border-bottom: 2px solid #fff;
+
+}
+
+.navbar-item:hover .navbar-item--funtion::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% + 6px);
+    width: 6px;
+    left: 50%;
+    border-bottom: 2px solid #ffffff;
+    
+}
+
+.navbar-item--funtion:hover {
+    opacity: 0.8;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;   
+}
+
+
+.navbar-header--function {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.navbar-header--connect {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-item--connect {
+    padding: 0 12px;
+}
+
+.navbar-list--for-user {
+    display: flex;
+    width: 78px;
+    justify-content: space-around;
+    margin: 0;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.navbar-item__person-icon {
+    font-size: 16px;
+    color: var(--gray-color);
 }

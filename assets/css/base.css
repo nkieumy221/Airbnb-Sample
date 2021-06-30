@@ -2,10 +2,13 @@
     --white-color : #fff;
     --black-color : #000;
     --text-color : #222;
+    --gray-color : rgb(113,113,113);
 }
 
 * {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 html {
