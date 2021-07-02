@@ -269,7 +269,7 @@
 
 /* Destination */
 .destination {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     display: block;
 }
 
@@ -307,4 +307,33 @@
 
 .destination-item__content:last-child {
     font-weight: 300;
+}
+
+/* Anywhere */
+.anywhere {
+
+}
+
+.anywhere-item {
+    text-decoration: none;
+    color: var(--black-color);
+    
+    
+}
+
+.anywhere-item__img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    border-radius: 10px;
+}
+
+.anywhere-item__lable {
+    padding: 12px 0;    
+}
+
+.anywhere-item__lable b{
+    font-size: 1.8rem;
+    font-weight: 500;
 }
