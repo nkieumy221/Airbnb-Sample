@@ -23,6 +23,7 @@ html {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+    display: block;
 }
 
 .grid__full-width {
@@ -32,7 +33,22 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -6px;
-    margin-right: -6px;
+    margin-left: -5px;
+    margin-right: -5px;
 
+}
+
+.grid__col-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 25%;
+}
+
+.main-title {
+    margin: 36px 0 30px;
+    display: block;
+}
+
+.main-title__content {
+    font-size: 30px;
 }
