@@ -317,8 +317,6 @@
 .anywhere-item {
     text-decoration: none;
     color: var(--black-color);
-    
-    
 }
 
 .anywhere-item__img {
@@ -336,4 +334,77 @@
 .anywhere-item__lable b{
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+.anywhere-item__content {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    margin-top: 65px;
+}
+
+.banner-link {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+.banner-img {
+    padding-top: 33%;
+    background-size: 100% 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.banner-img-2 {
+    padding-top: 33%;
+    background-size:50% 50%;
+    background-position: bottom right;
+    
+    border-radius: 16px;
+}
+
+.banner-body {
+    position: absolute;
+    top: 0;
+    padding:0 80px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.banner-title {
+    font-size: 4.8rem;
+    line-height: 5.2rem;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+.banner-content {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.banner-btn {
+    display: block;
+    margin-top: 40px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+    padding: 14px 24px;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    color: var(--white-color);
 }

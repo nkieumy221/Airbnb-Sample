@@ -43,6 +43,11 @@ html {
     width: 25%;
 }
 
+.grid__col-3 {
+    padding: 10px 8px;
+    width: 33.3333%;
+}
+
 .main-title {
     padding: 36px 0 20px;
     display: block;
