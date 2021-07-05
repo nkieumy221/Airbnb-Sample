@@ -408,3 +408,36 @@
     background-color: rgb(32, 32, 32);
     color: var(--white-color);
 }
+
+
+/* Footer */
+.footer {
+    background-color: #f7f7f7;
+}
+
+.footer__content {
+    padding: 48px 0;
+}
+
+.footer__tiltle {
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer__list {
+    list-style: none;
+    
+}
+
+.footer__item {
+    margin-top: 16px;
+}
+
+.footer__item-link {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 300;
+}
